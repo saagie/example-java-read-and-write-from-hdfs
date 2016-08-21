@@ -10,7 +10,9 @@ Usage in local :
 
 Usage in Saagie :
 
- - upload
- - add environment properties for HDFS uri.
+ - mvn package (in local, to generate jar file)
+ - create new Java Job
+ - upload the jar (arget/example-java-read-and-write-from-hdfs-1.0-SNAPSHOT-jar-with-dependencies.jar)
+ - copy URL from HDFS connection details panel
  - choose java 8
- - add and launch.
+ - create and launch.
