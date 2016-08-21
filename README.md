@@ -13,6 +13,6 @@ Usage in Saagie :
  - mvn package (in local, to generate jar file)
  - create new Java Job
  - upload the jar (arget/example-java-read-and-write-from-hdfs-1.0-SNAPSHOT-jar-with-dependencies.jar)
- - copy URL from HDFS connection details panel
+ - copy URL from HDFS connection details panel and add it in first argument in the command line
  - choose java 8
  - create and launch.
