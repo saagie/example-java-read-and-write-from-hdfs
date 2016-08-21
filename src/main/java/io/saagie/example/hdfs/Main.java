@@ -19,7 +19,8 @@ public class Main {
       //HDFS URI
 
       if (args.length<1) {
-         System.out.println("1 arg is required :\n\t- hdfsmasteruri (8020 port) ex: hdfs://namenodeserver:8020");
+         logger.severe("1 arg is required :\n\t- hdfsmasteruri (8020 port) ex: hdfs://namenodeserver:8020");
+         System.err.println("1 arg is required :\n\t- hdfsmasteruri (8020 port) ex: hdfs://namenodeserver:8020");
          System.exit(128);
       }
       String hdfsuri = args[0];
@@ -70,8 +71,8 @@ public class Main {
       //Classical input stream usage
       String out= IOUtils.toString(inputStream, "UTF-8");
       logger.info(out);
+      inputStream.close();
       fs.close();
 
    }
-
 }
