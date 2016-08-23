@@ -11,6 +11,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hadoop.version>2.6.0</hadoop.version>
+        <log4j.version>1.2.17</log4j.version>
+        <commons-io.version>1.3.2</commons-io.version>
     </properties>
 
 
@@ -24,13 +26,13 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <version>${log4j.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-io</artifactId>
-            <version>1.3.2</version>
+            <version>${commons-io.version}</version>
         </dependency>
     </dependencies>
 
