@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>saagie.io</groupId>
+    <groupId>io.saagie</groupId>
     <artifactId>example-java-read-and-write-from-hdfs</artifactId>
     <version>1.0-SNAPSHOT</version>
 
