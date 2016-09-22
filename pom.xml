@@ -39,6 +39,16 @@
     <build>
         <plugins>
             <plugin>
+              <groupId>io.saagie</groupId>
+               <artifactId>saagie-maven-plugin</artifactId>
+               <version>1.0.2</version>
+               <configuration>
+                 <platformId>1</platformId>
+                 <jobName>example-java-read-and-write-from-hdfs</jobName>
+                 <jobCategory>extract</jobCategory>
+               </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
